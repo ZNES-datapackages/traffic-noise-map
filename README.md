@@ -1,12 +1,13 @@
-# datapackage
+# Traffic-Noise-Map
 
 Based on an osm data file a datapackage can be build containing buffered geodata of streets in 
 the GeoJSON format. For each value of the highway tag a different buffer radius can be applied. 
 
 ## Warning
 
-The buffer radius is applied in meter on the PostGIS Geography type. That is why geodata should not fall within different UTM zones or cross the dateline.
-For more information see `http://www.postgis.net/docs/ST_Buffer.html'.
+* This datapackage only provides a way of building a datapackage. The license does obviously not apply to the data.
+
+* The buffer radius is applied in meter on the PostGIS Geography type. That is why geodata should not fall within different UTM zones or cross the dateline. For more information see `http://www.postgis.net/docs/ST_Buffer.html'.
 
 ## Requirements
 
