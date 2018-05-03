@@ -1,0 +1,47 @@
+{
+  "name": "noisemap",
+  "title": "Traffic Noise Map",
+  "description": "Data Package providing osm data in GeoJSON of areas exposed to traffic noise",
+  "licenses": [{
+    "id": "ODbl 1.0",
+    "title": "ODbl 1.0",
+    "url": "https://www.openstreetmap.org/copyright"
+  }],
+  "resources": [
+    {
+      "name": "noisemap",
+      "path": "data/noisemap.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "description": "Unique id used as primary key in the database",
+            "type": "string"
+          },
+          {
+            "name": "osm_id",
+            "description": "Unique id within osm database",
+            "type": "string"
+          },
+          {
+            "name": "key",
+            "description": "Osm key. First item of osm tag.",
+            "type": "string"
+          },
+          {
+            "name": "value",
+            "description": "Osm value. Second item of osm tag.",
+            "type": "string"
+          },
+          {
+            "name": "radius_of_buffer",
+            "description": "Buffer applied to a geometry in Meters.",
+            "type": "string"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+
+
+url: 'https://download.geofabrik.de/europe/germany/bremen-latest.osm.pbf'
+
+directories:
+    'cache': 'cache/'
+    'data' : 'data/'
+
+connection-options:
+    'username': 'username'
+    'password': 'password'
+    'host': 'localhost'
+    'port': '5432'
+    'db': 'db'
+    'schema': 'schema'
+
+cache: '4096'  # RAM to be used in osm2pgsql
