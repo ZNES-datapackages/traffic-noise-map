@@ -5,7 +5,7 @@ the GeoJSON format. For each value of the highway tag a different buffer radius 
 
 ## Warning
 
-* This datapackage only provides a way of building a datapackage. The license does obviously not apply to the data.
+* This repository only provides a way of building a datapackage without shipping data. The license does obviously not apply to any data.
 
 * The buffer radius is applied in meter on the PostGIS Geography type. That is why geodata should not fall within different UTM zones or cross the dateline. For more information see `http://www.postgis.net/docs/ST_Buffer.html'.
 
