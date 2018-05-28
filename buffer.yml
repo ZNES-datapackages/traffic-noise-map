@@ -1,0 +1,18 @@
+# Tags have to be individual fields in the given relation. On occasion you have
+# to update the osm2pgsql style file: https://wiki.openstreetmap.org/wiki/Osm2pgsql#Import_style
+planet_osm_line:
+    - highway:
+        'unclassified': 50
+        'residential': 50
+        'motorway': 100
+        'motorway_link': 100
+        'trunk': 100
+        'trunk_link': 100
+        'primary': 80
+        'primary_link': 80
+        'secondary': 80
+        'secondary_link': 80
+        'tertiary': 50
+        'tertiary_link': 50
+planet_osm_polygon: []
+planet_osm_point: []
