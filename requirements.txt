@@ -25,7 +25,6 @@ pandas==0.22.0
 parso==0.1.1
 pexpect==4.4.0
 pickleshare==0.7.4
-pkg-resources==0.0.0
 prompt-toolkit==1.0.15
 psycopg2==2.7.4
 ptyprocess==0.5.2
@@ -35,7 +34,7 @@ python-dateutil==2.6.1
 pytz==2018.3
 PyYAML==3.12
 pyzmq==17.0.0
-requests==2.18.4
+requests==2.21.0
 Shapely==1.6.4.post1
 simplegeneric==0.8.1
 six==1.11.0
@@ -43,5 +42,5 @@ SQLAlchemy==1.2.5
 tornado==5.0.2
 traitlets==4.3.2
 uritemplate==3.0.0
-urllib3==1.22
+urllib3==1.24.1
 wcwidth==0.1.7
